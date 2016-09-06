@@ -12,7 +12,7 @@ require_once '../src/Registration.php';
  * Config data.
  */
 $debug = true;
-$username = '34666554433';   // Telephone number including the country code without '+' or '00'.
+$username = '919207005595';   // Telephone number including the country code without '+' or '00'.
 
 // Create an instance of Registration.
 $w = new Registration($username, $debug);
@@ -64,7 +64,7 @@ $w->codeRequest('sms');
  *   - currency: Currency price of account.
  *   - price_expiration: Price expiration in UNIX Timestamp.
  */
-$w->codeRegister('123456');
+//$w->codeRegister('111839');
 
 // IT IS VERY IMPORTANT THAT YOU NOTE AND KEEP YOUR DETAILS.
 // YOU WILL NEED TO UPDATE THE SCRIPT WITH THE PASSWORD ETC.

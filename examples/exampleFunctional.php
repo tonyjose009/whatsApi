@@ -2,19 +2,19 @@
 
 set_time_limit(10);
 require_once __DIR__.'/../src/whatsprot.class.php';
-require_once __DIR__.'/../src//events/MyEvents.php';
+require_once __DIR__.'/../src/events/MyEvents.php';
 
 //Change to your time zone
-date_default_timezone_set('Europe/Madrid');
+date_default_timezone_set('Asia/Kolkata');
 
 //######### DO NOT COMMIT THIS FILE WITH YOUR CREDENTIALS ###########
 ///////////////////////CONFIGURATION///////////////////////
 //////////////////////////////////////////////////////////
-$username = '**your phone number**';                      // Telephone number including the country code without '+' or '00'.
-$password = '**server generated whatsapp password**';     // Use registerTool.php or exampleRegister.php to obtain your password
-$nickname = '**your nickname**';                          // This is the username (or nickname) displayed by WhatsApp clients.
-$target = "**contact's phone number**";                   // Destination telephone number including the country code without '+' or '00'.
-$debug = false;                                           // Set this to true, to see debug mode.
+$username = '919207005595';                      // Telephone number including the country code without '+' or '00'.
+$password = 'buMNnJpvIrPx8Kbq9E3N2a3gGmQ=';     // Use registerTool.php or exampleRegister.php to obtain your password
+$nickname = 'Tony Joseee';                          // This is the username (or nickname) displayed by WhatsApp clients.
+$target = "919895704728";                   // Destination telephone number including the country code without '+' or '00'.
+$debug = true;                                           // Set this to true, to see debug mode.
 ///////////////////////////////////////////////////////////
 
 function fgets_u($pStdn)

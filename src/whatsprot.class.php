@@ -189,10 +189,14 @@ class WhatsProt
                     $this->socket,
                 ]
             );
+            echo "Connected to WA server";
+            echo "\n";
             $this->logFile('info', 'Connected to WA server');
 
             return true;
         } else {
+            echo "Failed to connect WA server";
+            echo "\n";
             $this->logFile('error', 'Failed to connect WA server');
             $this->eventManager()->fire('onConnectError',
                 [
